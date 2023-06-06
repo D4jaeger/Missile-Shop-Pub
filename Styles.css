@@ -1,0 +1,73 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: Arial, sans-serif; /* Added a default font */
+}
+
+/* Header styles*/
+header {
+	background-color: #333;
+	color: white;
+	padding: 20px; /* Increased padding */
+	text-align: center;
+	position: relative;
+	height: 700px;
+}
+
+/* Logo container styles */
+#logo-container {
+	position: relative;
+	height: 100%
+}
+
+/* Logo styles */
+#logo-container img {
+	width: 700px;
+	position: absolute;
+	top: 17%;
+	left:50%;
+	transform: translate(-50%, -50%)
+}
+
+/* Navigation menu styles */
+#logo-container nav {
+	position: absolute;
+	top: 0px;
+	padding-top: 10px;
+	width: 100%;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #00ff00;
+}
+
+/* Added styles for sections */
+section {
+	padding: 20px;
+	text-align: center;
+}
+
+/* Added styles for footer */
+footer {
+	background-color: #333;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
